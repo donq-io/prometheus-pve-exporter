@@ -2,3 +2,7 @@ default:
   user: prometheus@pve
   token_name: prompve-scraper
   token_value: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+  # Aggiungi l'URL del tuo server Proxmox qui (esempio: https://192.168.1.100:8006)
+  # Sostituisci con l'indirizzo IP o hostname reale del tuo server
+  # server: https://your-proxmox-server:8006
+  # verify_ssl: false  # Opzionale: disabilita la verifica SSL se necessario
